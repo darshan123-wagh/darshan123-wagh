@@ -1,0 +1,198 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+     height:100%;
+     width:100%;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+
+}
+#left{
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    width:40vw;
+    background-color:#1a257d
+    
+}
+#right{
+    height:100vh;
+    width:60vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.logoname{
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    width: 100%
+    
+    
+}
+.logo{
+    height: 90px;
+    width: 90px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-self:center;
+    color: white;
+    margin-top: 12px;
+
+}
+.img{
+    margin-bottom: 40px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.title h4{
+    font-size: 20px;
+    line-height: 30px;
+    
+}
+.form{
+     position: relative;
+    width:35vw;
+    height:83vh;
+    border-radius:6px;
+    border: 1px solid black;
+    
+
+}
+.login{
+    margin-top: 35px;
+    margin-left: 35px;
+}
+div.login h4{
+    line-height: 45px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.login p{
+    font-size: 20px;
+}
+.sign{
+    display: flex;
+    margin-left: 35px;
+}
+.sign p{
+    font-size: 18px;
+}
+.sign a{
+    font-size: 20px;
+}
+#country{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.box1{
+    margin-left: 38px;
+    padding: 6px 8px;
+
+    border-bottom: 2px solid black;
+
+}
+.box2{
+    margin-right: 40px;
+    padding: 6px 8px;
+    border-bottom: 2px solid black;
+}
+.box1 h4{
+    font-size: 20px;
+}
+.box2 h4{
+    font-size: 20px;
+}
+.input{
+    margin-left: 40px;
+    margin-top: 25px;
+}
+label.text h4{
+    font-size: 20px;
+}
+.input-box{
+    margin-left:40px ;
+    margin-top: 10px;
+    
+}
+input#nm{
+    width:500px;
+    height:40px;
+    padding: 8px 10px;
+
+}
+.pass{
+    margin-left: 40px;
+    margin-top: 22px;
+}
+label.password h4{
+    font-size:20px ;
+    
+}
+input#pw{
+    width:500px;
+    height:40px;
+    padding: 8px 10px;
+}
+.pass-box{
+    background-color: aquamarine;
+    margin-left: 40px;
+    margin-top: 10px;
+    width: fit-content;
+}
+.forget{
+    margin-left:410px;
+    margin-top: 20px;
+}
+div.forget a{
+    font-size: 20px;
+}
+.captach{
+    width:180px;
+    height: 80px;
+    border:1px solid black;
+    margin-left: 40px;
+    text-align: center;
+    
+}
+.cap{
+    margin-left: 40px;
+    margin-top: 22px;
+}
+label.capt h4{
+    font-size: 20px;
+}
+input#cw{
+    width:180px;
+    height:40px;
+    padding: 8px 10px;
+}
+.cap-box{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+button{
+    margin-top: 30px;
+    padding: 10px 215px;
+    background-color:rgb(0, 128, 255);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
